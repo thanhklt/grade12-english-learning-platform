@@ -1,0 +1,8 @@
+:root { font-family: system-ui, sans-serif; color: #18302c; background: #f5f7f3; }
+body { max-width: 960px; margin: auto; padding: 24px; line-height: 1.6; }
+header { display: flex; justify-content: space-between; gap: 24px; padding: 16px 0; }
+header a { color: #145b45; font-size: 24px; font-weight: 700; text-decoration: none; }
+main { margin-top: 64px; }
+h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.2; }
+.button { display: inline-block; background: #145b45; color: white; padding: 12px 24px;
+  border-radius: 8px; text-decoration: none; margin: 16px 0; }

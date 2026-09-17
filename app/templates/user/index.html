@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Cùng học tiếng Anh lớp 12</h1>
+<p>Bài học theo Unit, flashcard và trò chơi luyện tập.</p>
+<p>Các chức năng học tập đang được xây dựng.</p>
+<a class="button" href="/welcome" hx-get="/welcome" hx-target="#welcome" hx-swap="innerHTML">
+  Khám phá
+</a>
+<section id="welcome" aria-live="polite"></section>
+{% endblock %}
