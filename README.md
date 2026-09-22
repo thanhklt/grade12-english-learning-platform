@@ -1,5 +1,5 @@
 # Grade 12 English Learning Platform
-
+## Temporary Suspended
 Nền tảng học tiếng Anh lớp 12 theo SPEC-001 Phase 1. Kiến trúc modular monolith:
 FastAPI + Jinja2 + HTMX, PostgreSQL (asyncpg), SQLAlchemy Async và Alembic.
 
